@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+body{
+    margin: auto;
+    background-color: black;
+    color: aqua;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    color: rgb(54, 9, 176);
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+.title:hover{
+    width: 100%;
+    background-color: yellow;
+    color: blue;
+}
+.arif{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.insta{
+    width: 80%;
+    height: 50vh;
+    position: absolute;
+    bottom: -69px;
+    
+}
+.fbimg{
+    width: 80%;
+    height: 50vh;
+}
+.div1,.div2{
+    float: left;
+}
+.div1{
+    width:59%;
+    position: absolute;
+    top:61%;
+    left: 20%;
+    
+}
+.h1a{
+    text-align: center;
+    width: 30%;
+    height: 30px;
+    border: 2px rgb(61, 175, 228) solid;
+    border-radius: 0px 10px 0px 10px;
+}
+.btn{
+    width: 30%;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    transition-duration: 2s;
+
+    
+}
+.btn:hover{
+    width: 50%;
+    height: 60px;
+    border: 2px solid yellow;
+    color: yellow;
+    border-radius: 40px;
+}
+.div2{
+    width: 39%;
+    position: absolute;
+    top: 90%;
+    left: 60%;
+}
+.inh{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 0px 10px;
+    
+}
+.shaik{
+    width: 100%;
+    height: 73vh;
+    border-bottom: 2px solid yellow;
+    position: relative;
+
+
+}
+.fb,.fbh1{
+    float: left;
+}
+.fb{
+    width: 40%;
+    height: 30vh;
+}
+.fbh1{
+    width: 59%;
+    height: 30vh;
+}
+.btn2{
+    background-color: aqua;
+    color: red;
+    width: 20%;
+    height: 40px;
+    position: absolute;
+    top: 71%;
+    left: 60%;
+    transition-duration: 2s;
+}
+.btn2:hover{
+    width: 35%;
+    height: 55px;
+    background-color: transparent;
+    color: coral;
+    border: 2px solid coral;
+    border-radius: 30px 0px 30px 0px  ;
+   
+}
+.fbs{
+    position: absolute;
+    top: 28%;
+    left: 67%;
+    width: 20%;
+    height: 30px;
+    border: 2px solid red;
+    border-radius: 10px 0px 10px 0px ;
+
+}
+.neha{
+    border-radius: 10px 0px 10px 0px ;
+    width: 100%;
+    height: 30px;
+}
+footer{
+    width: 100%;
+    height: 15vh;
+}
+.last{
+    width: 50%;
+    height: 10vh;
+    position: relative;
+    text-align: center;
+}
+.lastdiv{
+    width: 50%;
+    height: 10vh;
+    position: relative;
+    text-align: center;
+
+}
+.tel{
+    width: 40%;
+    text-decoration: none;
+    color: rgb(29, 230, 116);
+    font-size: 20px;
+    position: absolute;
+    right: 30%;
+    top: 30%;
+}
+.last,.lastdiv{
+    float: left;
+}
+.mail{
+    width: 40%;
+    text-decoration: none;
+    color: rgb(29, 230, 116);
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    
+}
+.slide{
+    width: 100%;
+    height: 20vh;
+    color: aqua;
+    text-align: center;
+   
+}
+.effect{
+    width: 75%;
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-timing-function:ease-in-out;
+    animation-delay: inherit;
+    animation-iteration-count: infinite;
+}
+.hosting{
+    width: 100%;
+    height: 100vh;
+}
+@keyframes spin {
+    50% {
+      transform: translate(30%)
+    }
+    100%{
+        transform:translate(-30%) 
+    }
+  }
+
+  
+
+
+
+   
